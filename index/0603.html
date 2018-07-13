@@ -1,0 +1,106 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> 0603 </title>
+</head>
+
+<body>
+<div align="center">
+<p>
+  chap1~3
+  SUID set user  id
+  SGID set group id
+
+  try exception
+
+  exception 種類　いろいろ
+
+  BaseException: SystemExit, exception
+
+  SystemExit: null
+  Exception: ArithmetricError, ValuError, OSError
+
+  ArithmetricError: OverflowError, ZeroDivisionError
+  ValueError: null
+  OSError: FileNotFoundError
+</p>
+<br>
+
+
+<p>
+chap4
+
+  {}{} format()
+  {0}{1}
+  {0:.4f}　format(pi)  とか
+  リスト[]とタプル()　タプル()省略可　の値へこうは無理
+
+  スライス: リストの要素取り出し
+  hogehoge[開始 : 終了]
+  hoge[:3] ~2
+  hoge[3:] 3~
+
+  :num スッテプ数　:4 ４つおきに取り出し
+  [::4]とか
+  split("a,a,a,a,a,b,b,b,b")　→　aとｂのリストに変換
+  str = "a,a,a,a,a,b,b,b,b"
+  list = str.split()
+
+  名前はタグ　a = b としたら　aのオブジェクトにタグbが付けられる
+  a is b は　true
+  a == b はオブジェクトの見た目がおなじかどうか　111 と　111とか
+  a is b は同じオブジェクトかどうか
+
+  python
+  シーケンス型: 文字列、リスト、タプル
+  マッピング型: 辞書
+
+  辞書(Dictionary), 連想配列、　hash
+  name ={key:value, key:value, key:value, key:value...}
+  辞書の順は記述した順ではない、hash値で管理されるから
+
+  name[key] で　value
+  name["new key"] = "new value"も　おｋ
+
+  name.items()
+  name.keys()
+  name.values() これらの返り値はviewオブジェクト
+  name[key]+= 1 valueに加算してく　アンケートとかに使える
+  del name[key]
+
+  リストの内包表記とstartwithはめんどやから後でやってくれ
+
+  疲れたからばんめし！
+</p>
+<br>
+
+<p>
+  chapter5
+
+</p>
+<br>
+
+
+<p>
+Other things
+
+vagrant VMのすごいラッパー　VM使うのに便利らしい　Vagrant Fileとか使うらしい
+
+Docker プロセス実行ツール　apachとかMySQLとか実行環境をそのままDockerImageにするらしい。
+楽曲:プロセス　CDとかメディア:image 機器:host 音声:コンテナ　
+SEO　search engine optimization
+2>&1 :　リダイレクトって機能　出力の変更に使うらしい
+標準エラーを標準出力に
+
+ファイルディスクリプタっていうらしい
+OSが識別するために使用する識別子
+０が標準入力
+１が標準出力
+２が標準エラー出力
+Command 1>log.txt2 2>error.txt
+
+</p>
+<br>
+
+</body>
+</html>
